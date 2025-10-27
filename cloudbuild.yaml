@@ -1,3 +1,7 @@
 steps:
 - name: 'ubuntu'
   args: ['echo', 'hello repos world']
+
+serviceAccount: 'projects/test1-439421/serviceAccounts/292572785647-compute@developer.gserviceaccount.com'
+options:
+  logging: GCS_ONLY
